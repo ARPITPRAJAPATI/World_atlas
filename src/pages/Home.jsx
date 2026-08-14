@@ -1,10 +1,14 @@
 import react from 'react'
+import HeroSection from '../ui/Herosection';
+import About from './About';
+
 
 const Home = () => {
     return(
         <>
-        <h1>Home page</h1>
+        <HeroSection/>
+        <About/>
         </>
     )
-}
+};
 export default Home 
